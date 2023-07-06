@@ -10,20 +10,22 @@
     <h1>Formulário de cadastro</h1>
     <form class="contato" action="" method="post">
         
-        <label>Nome </label> 
-        <input type="text" name="nome" placeholder="Nome Completo" /> <br />
+        <label for="nome">Nome </label> 
+        <input id="nome" type="text" name="nome" placeholder="Nome Completo" /> 
+        <br />
         
-        <label for="E-mail">E-mail</label>
-        <input id="email" type="e-mail" name="e-mail" placeholder="Seu E-mail" required />
+        <label for="email">E-mail</label>
+        <input id="email" type="email" name="email" placeholder="Seu E-mail" required />
         <br />
 
         
-        <label>Senha</label>
-        <input type="password" name="Senha" /> 
+        <label for="senha">Senha</label>
+        <input id="senha" type="password" name="Senha" /> 
         <br />
         
-        <button>Enviar</button>
-        <br />
+        <button type="submit">
+            Cadastrar
+         </button>
 
     </form>
 </body>
