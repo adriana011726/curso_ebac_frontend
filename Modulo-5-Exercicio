@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="project.html">Projetos</a>
+                </li> 
+                <li>
+                    <a href="contact.html">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    
+        <header>
+            <div class="center">
+                <img src="./img/AdrianaFoto.jpeg"></img>
+            </div>  
+            <h1>Adriana Correia</h1>  
+            <h2>Desenvolvedora Front-End</h2> 
+        </header>
+    
+        <main>
+            <section>
+                <h3>Sobre mim</h3>
+                <p>
+                    Eu sou Adriana, Desenvolvedora Front-end projetando interfaces de usuários úteis e acessíveis. <br>
+                    Sempre em busca das melhores práticas e em constante aprendizado. <br>
+                    Constante desenvolvimento profissional busco evoluir e melhorar todos os dias.
+                </p>
+            </section>
+            <section>
+                <h3>Formação</h3>
+                <p>
+                    Atualmente Cursando Tecnólogo em Análise e Desenvolvimeto de Sistemas. <br>
+                    MBA em Gestão Estratégica de Pessoas.<br>
+                    Bacharelado em Administração.
+                </p>
+            </section>
+            <section>
+                <h3>Cursos</h3>
+                <p>
+                    Profissão: Engenheiro Front-end. <br>
+                    Google Flutter: Do Zero Ao Pro.
+                </p>
+            </section>
+        </main>
+    
+        <footer>
+            <a>
+                <a href="https://github.com/adriana011726" target="_blank" rel="noopener noreferrer">
+                <img src="./img/github.png"></img>
+                <p>GitHub</p>
+                </a>
+                <a>
+                    <a href="https://www.linkedin.com/in/adriana-de-souza-correia/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/linkedin1.png"></img>
+                    <p>Linkedin</p>
+                </a>
+                <a>
+                    <a href="https://www.youtube.com/watch?v=LqXqBgIUbJg" target="_blank" rel="noopener noreferrer">
+                    <img src="./img/youtube1.png"></img>
+                    <p>Youtube</p>
+                </a>
+        </footer>
+
+    </div>
+   
+</body>
+</html>
